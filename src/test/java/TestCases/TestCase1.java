@@ -45,7 +45,7 @@ public class TestCase1
     }
 
     @Test (priority = 3)
-    public void ceaderVerification()
+    public void headerVerification()
     {
         wait.until(ExpectedConditions.presenceOfElementLocated
                 (By.xpath("//*[@id=\"header_container\"]/div[2]/span")));
