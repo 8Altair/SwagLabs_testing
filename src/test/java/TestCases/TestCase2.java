@@ -31,7 +31,7 @@ public class TestCase2
     }
 
     @Test (priority = 2)
-    public void Login()
+    public void login()
     {
         WebElement username = driver.findElement(By.id("user-name"));
         WebElement password = driver.findElement(By.id("password"));
